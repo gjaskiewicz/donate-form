@@ -12,6 +12,7 @@ This is donation card project. It allows to specify donation amount and donation
 
 ### Minimal resolution
 Size of the card can be further reduced by hiding header. This action happens when user clicks 'close' button which is available on mobile resolution.
+
 ![Minimal card](https://github.com/gjaskiewicz/donate-form/blob/main/docs/form_minimal.png?raw=true)
 
 ## Running project
