@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 const SmallButton = styled.button.attrs(props => { return {
-    size: props.size || 24,
-    hoverColor: props.hoverColor || '#F3F5FE',
-    activeColor: props.activeColor || '#E8EAF2',
+    $size: props.$size || 24,
+    $hoverColor: props.$hoverColor || '#F3F5FE',
+    $activeColor: props.$activeColor || '#E8EAF2',
 }; })`
-    width: ${p => p.size}px;
-    height: ${p => p.size}px;
+    width: ${p => p.$size}px;
+    height: ${p => p.$size}px;
     padding: 0;
     border: 0;
     margin: auto;
@@ -19,11 +19,11 @@ const SmallButton = styled.button.attrs(props => { return {
     }
 
     &:hover {
-        background: ${p => p.hoverColor};
+        background: ${p => p.$hoverColor};
     }
 
     &:active {
-        background: ${p => p.activeColor};
+        background: ${p => p.$activeColor};
     }
 
     &:disabled {

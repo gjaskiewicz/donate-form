@@ -78,7 +78,7 @@ const DonateHeader = ({text, subtext}) => {
         <DonateHeaderTextContainer>{text}</DonateHeaderTextContainer>
         <DonateHeaderSubTextContainer>{subtext}</DonateHeaderSubTextContainer>
     </div>
-    <CloseButton size={40} onClick={onCloseButtonClicked} data-testid={"CloseHeader"} hoverColor="#F2D0C1" activeColor="#F2D0C1">
+    <CloseButton $size={40} onClick={onCloseButtonClicked} data-testid={"CloseHeader"} $hoverColor="#F2D0C1" $activeColor="#F2D0C1">
         <img src={icon_close} alt="Hide header" />
     </CloseButton>
   </DonateHeaderContainer>;
