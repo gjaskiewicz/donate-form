@@ -15,6 +15,7 @@ const CenteredContainer = styled.div`
   background: #fff;
 
   filter: drop-shadow(5px 5px 4px #aaa);
+  border-radius: 5px;
 `;
 
 const ContentContainer = styled.div`
